@@ -1,2 +1,0 @@
-# dikeshr.github.io
-Portfolio
