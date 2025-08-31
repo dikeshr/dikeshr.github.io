@@ -301,7 +301,7 @@ document.querySelectorAll('.contact-item').forEach(item => {
                 tooltip.textContent = 'Email copied!';
                 tooltip.style.cssText = `
                     position: absolute;
-                    background: #2563eb;
+                    background: #8b6f47;
                     color: white;
                     padding: 8px 12px;
                     border-radius: 6px;
@@ -332,7 +332,7 @@ progressBar.style.cssText = `
     left: 0;
     width: 0%;
     height: 3px;
-    background: linear-gradient(45deg, #2563eb, #3b82f6);
+    background: linear-gradient(45deg, #8b6f47, #a67c52);
     z-index: 1001;
     transition: width 0.1s ease;
 `;

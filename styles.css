@@ -6,23 +6,23 @@
 }
 
 :root {
-    /* Light theme variables */
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --text-primary: #333;
-    --text-secondary: #475569;
-    --text-muted: #64748b;
-    --border-color: #e2e8f0;
-    --shadow: rgba(0, 0, 0, 0.1);
-    --shadow-hover: rgba(0, 0, 0, 0.15);
-    --navbar-bg: rgba(255, 255, 255, 0.95);
+    /* Light theme variables - Earthy Colors */
+    --bg-primary: #f5ebe0;
+    --bg-secondary: #edede9;
+    --text-primary: #2c1810;
+    --text-secondary: #4a3c35;
+    --text-muted: #6b5b52;
+    --border-color: #d6ccc2;
+    --shadow: rgba(0, 0, 0, 0.08);
+    --shadow-hover: rgba(0, 0, 0, 0.12);
+    --navbar-bg: rgba(245, 235, 224, 0.95);
     --card-bg: #ffffff;
     --input-bg: #ffffff;
-    --input-border: #d1d5db;
-    --accent-color: #2563eb;
-    --accent-hover: #1d4ed8;
-    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-accent: linear-gradient(45deg, #2563eb, #3b82f6);
+    --input-border: #d5bdaf;
+    --accent-color: #8b6f47;
+    --accent-hover: #6b5b52;
+    --gradient-primary: linear-gradient(135deg, #d5bdaf 0%, #e3d5ca 100%);
+    --gradient-accent: linear-gradient(45deg, #8b6f47, #a67c52);
 }
 
 [data-theme="dark"] {
@@ -229,7 +229,7 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(45deg, #ffffff, #e0e7ff);
+    background: linear-gradient(45deg, #ffffff, #f5ebe0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -239,13 +239,13 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #e0e7ff;
+    color: #f5ebe0;
 }
 
 .hero-description {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #cbd5e1;
+    color: #e3d5ca;
     line-height: 1.8;
 }
 
@@ -274,7 +274,7 @@ body {
 .btn-primary:hover {
     background: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 10px 25px rgba(139, 111, 71, 0.3);
 }
 
 .btn-secondary {
@@ -448,7 +448,7 @@ body {
     justify-content: center;
     color: white;
     font-size: 4rem;
-    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 20px 40px rgba(139, 111, 71, 0.3);
 }
 
 /* Skills Section */
@@ -695,7 +695,7 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 111, 71, 0.1);
 }
 
 .form-group textarea {
